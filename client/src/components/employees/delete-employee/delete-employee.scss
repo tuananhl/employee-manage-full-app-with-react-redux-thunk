@@ -1,0 +1,33 @@
+.delete-employee {
+    padding: 15px 0;
+    .title-modal-delete {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .list-button-action {
+        display: flex;
+        justify-content: space-around;
+        button {
+            padding: 12px 40px;
+            text-transform: uppercase;
+            border-radius: 3px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        button.delete {
+            background: #F95F62;
+            border: 1px solid #F95F62;
+            color: #fff;
+        }
+
+        button.cancel {
+            background: #fff;
+            color: #47525e;
+            border: 2px solid #47525e;
+        }
+    }
+}

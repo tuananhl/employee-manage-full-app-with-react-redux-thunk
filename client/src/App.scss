@@ -1,0 +1,23 @@
+@import "./../node_modules/bootstrap/scss/bootstrap.scss";
+
+.m-t-10 {
+  margin-top: 10px;
+}
+button {
+  border: none;
+}
+.content-app {
+    position: relative;
+}
+.header {
+    margin: 20px 0;
+    .title-page {
+        color: #47525E;
+        font-weight: 700;
+        font-size: 41px;
+        text-decoration: none; 
+    }
+}
+h5 {
+    font-size: 1.10rem;
+}
